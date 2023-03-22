@@ -349,7 +349,7 @@ func (r *Repl) dispatch(b []byte) {
 			}
 		}
 	} else {
-		//r.cleanAndAddToBuffer(b)
+		r.cleanAndAddToBuffer(b)
 	}
 
 	return
